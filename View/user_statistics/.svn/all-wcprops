@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/view.ctp
+END
+admin_edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/admin_edit.ctp
+END
+admin_index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/admin_index.ctp
+END
+admin_add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/admin_add.ctp
+END
+admin_view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/admin_view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/views/user_statistics/add.ctp
+END

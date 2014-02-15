@@ -1,0 +1,7 @@
+<?php if(isset($logged_user)):?>
+<?php $mystats = $this->requestAction('answers/user_statistics/mine'); ?>
+<div class="mystats">
+	<div>Hellow <a href="<?php echo $base_url;?>answers/user_answer_profiles/view/<?php echo $logged_user['User']['id'];?>/<?php echo $logged_user['User']['username'];?>" title="View <?php echo $logged_user['User']['username'];?>'s profile"><?php echo $logged_user['User']['username'];?></a></div>
+	<div>You have <?php echo $mystats['UserStatistic']['points'];?> points (Level <?php echo $mystats['UserStatistic']['user_level_id'];?>)</div>
+</div>
+<?php endif;?>

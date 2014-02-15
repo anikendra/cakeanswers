@@ -1,0 +1,21 @@
+<div id="sadan-answeraddform">
+	<h3>What's Your Answer?</h3>
+	<?php echo $form->create('Answer', array('class'=>'hide','action'=>'add'));?>
+		<fieldset>
+			<legend><?php echo $html->link('Answer Question', array('plugin'=>'answers','controller'=>'answers','action'=>'add', $questionId));?></legend>
+		<?php
+			echo $form->input('answer',array('label'=>'Your Answer:'));
+			echo $form->input('source',array('type'=>'textarea','rows'=>3,'placeholder'=>"Share the sites you referenced in your research and give credit.",'label'=>"What's your source?"));
+			echo $form->input('question_id', array('type'=>'hidden', 'value'=>$questionId));
+			//echo $form->submit('Submit');
+		?>
+		<p>Answering earns you 2 points.</p>
+		<?php if(isset($logged_user)):?>
+		<a href="javascript:document.getElementById('AnswerAddForm').submit();" class="answersbutton">Submit</a>
+		<?php else:?>
+		<a href="<?php echo $base_url;?>users/login?next=<?php echo $this->Html->here;?>" class="answersbutton">Login to post answer</a>
+		<?php endif;?>
+		</fieldset>
+	<?php echo $form->end();?>	
+</div>
+<div class="clear">&nbsp;</div>

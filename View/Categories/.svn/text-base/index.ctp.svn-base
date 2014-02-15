@@ -1,0 +1,18 @@
+<div class="categories index">
+	<h1><?php __('Browse Categories');?></h1>
+	<ul>
+	<?php
+	$i = 0;
+	foreach ($categories as $category):
+		$class = null;
+		if ($i++ % 2 == 0) {
+			$class = ' class="altrow"';
+		}
+	?>
+		<li <?php echo $class;?>>
+			<a href="<?php echo $base_url;?>answers/questions/category/<?php echo $category['Category']['id']; ?>/<?php echo Inflector::slug($category['Category']['name']); ?>" title="Open questions of category - <?php echo $category['Category']['name']; ?>"><?php echo $category['Category']['name']; ?></a>				
+		</li>
+				
+	<?php endforeach; ?>
+	</ul>
+</div>

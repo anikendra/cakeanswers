@@ -1,0 +1,55 @@
+<?php echo $this->Html->css('menu_style');?>
+<?php echo $this->Html->css('answers');?>
+<div id="nav">
+	<ul>
+		<li><a href="<?php echo $base_url;?>answers/questions/index" title="Questions and Answers Home"><span>Home</span></a></li>
+		<li><a href="<?php echo $base_url;?>answers/categories/index" title="Questions and Answers Categories"><span>Browse Categories</span></a></li>
+		<?php if(isset($logged_user)):?>
+		<li>
+			<a href="<?php echo $base_url;?>answers/questions/mine" title="Questions asked by me"><span>My Activity</span></a>
+			<ul>
+				<li><a href="<?php echo $base_url;?>answers/questions/mine" title="Questions asked by me"><span>My Questions</span></a></li>
+				<li><a href="<?php echo $base_url;?>answers/favorite_questions/" title="Questions asked by me"><span>My Favourite Questions</span></a></li>
+				<li><a href="<?php echo $base_url;?>answers/questions/answeredbyme" title="Answers given by me"><span>My Answers</span></a></li>
+				<li><a href="<?php echo $base_url;?>answers/user_answer_profiles/edit" title="My settings"><span>My Preferences</span></a></li>
+			</ul>
+		</li>
+		<?php endif;?>
+		<li><a href="<?php echo $base_url;?>answers/about/index" title="Questions and Answers About"><span>About</span></a>
+			<ul>
+				<li><a href="<?php echo $base_url;?>answers/about/pointsystem" title="Questions and Answers Points System"><span>Points System</span></a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div id="questionanav">
+	<ul>
+		<li>
+			<div>
+				<h3>Ask</h3>
+				<form id="questionaskform" action="<?php echo $base_url;?>answers/questions/add" method="POST">					
+					<input type="text" name="question" placeholder="What would you like to ask?"/>	
+					<?php if(isset($logged_user)):?>
+					<a href="javascript:document.getElementById('questionaskform').submit();" class="answersbutton">Submit</a>
+					<?php else:?>
+					<a href="<?php echo $base_url;?>users/login?next=<?php echo $this->Html->here;?>" class="answersbutton">Login to Ask</a>
+					<?php endif;?>
+				</form>
+			</div>
+		</li>
+		<li>
+			<div>
+				<h3>Answer</h3>
+				<div class="answerslabel"><b>Share</b> your knowledge, <b>Help</b> others and be an <b>Expert</b></div>
+				<a href="<?php echo $base_url;?>answers/questions/open" class="answersbutton" title="Browse Open Questions">Browse Open Questions</a>
+			</div>
+		</li>
+		<li>
+			<div>
+				<h3>Discover</h3>
+				<div class="answerslabel">The Best Answers chosen by the <b>Community</b></div>				
+				<a href="<?php echo $base_url;?>answers/questions/resolved" class="answersbutton" title="Browse Resolved Questions">Browse Resolved Questions</a>
+			</div>
+		</li>
+	</ul>
+</div>

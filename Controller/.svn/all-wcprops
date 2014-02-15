@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/anikendra/SearchADoctor/svn/!svn/ver/135/app/plugins/answers/controllers
+END
+user_levels_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/user_levels_controller.php
+END
+user_statistics_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/user_statistics_controller.php
+END
+favorite_questions_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/favorite_questions_controller.php
+END
+about_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/about_controller.php
+END
+questions_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/anikendra/SearchADoctor/svn/!svn/ver/135/app/plugins/answers/controllers/questions_controller.php
+END
+points_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/points_controller.php
+END
+point_events_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/point_events_controller.php
+END
+tags_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/tags_controller.php
+END
+best_answers_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/best_answers_controller.php
+END
+user_answer_profiles_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/user_answer_profiles_controller.php
+END
+topics_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/topics_controller.php
+END
+answers_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/answers_controller.php
+END
+categories_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/anikendra/SearchADoctor/svn/!svn/ver/132/app/plugins/answers/controllers/categories_controller.php
+END
