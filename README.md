@@ -12,19 +12,19 @@ Changelog
 
 About Plugin
 
-    Live Demo: http://hotbhojpuri.in/sawaljawab
+Live Demo: http://hotbhojpuri.in/sawaljawab
 
 Feature List
 
     Fully functional questions and answers plugin in line of Yahoo Answers with points system. Works seemlessly with your already built user authentication via AuthComponent. Designed with Twitter Bootstrap so can be integrated into existing project with much ease.
 
-        Questions and Answers in multi level categories.
-	Supports login via Cakephp AuthComponent.
-        Designed with Twitter Bootstrap.
-        Supports three states for Questions viz. Open, Resolved and Deleted.
-	Points system for more user engagement.
-	SEO friendly urls.
-	Favourite Questions functionality.
+    Questions and Answers in multi level categories.
+    Supports login via Cakephp AuthComponent.
+    Designed with Twitter Bootstrap.
+    Supports three states for Questions viz. Open, Resolved and Deleted.
+    Points system for more user engagement.
+    SEO friendly urls.
+    Favourite Questions functionality.
 	
 Install and Setup
 
